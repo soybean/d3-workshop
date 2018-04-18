@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='main.css'>
+  </head>
+  <body>
+    <!--<script src='index.js'></script>-->
+    <button onclick="clicked()"> Click me! </button>
+    <div id='count'>0</div>
+    <script>
+	var count = 0;
+	function clicked() {
+	  count ++;
+	  document.getElementById("count").innerHTML = count;
+	}
+    </script>
+  </body>
+</html>
